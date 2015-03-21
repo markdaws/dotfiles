@@ -12,9 +12,10 @@
 (personal 'shellmode)
 (personal 'tabs)
 (personal 'utf-8)
+(personal 'whitespace)
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-			 ("melpa" . "http://melpa.milkbox.net/packages/")))
+             ("melpa" . "http://melpa.milkbox.net/packages/")))
 (package-initialize)
 (when (not package-archive-contents) (package-refresh-contents))
 
@@ -24,4 +25,3 @@
 (package 'flx-ido)
 (package 'flx-isearch)
 (package 'projectile)
-
