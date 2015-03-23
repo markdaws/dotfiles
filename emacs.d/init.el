@@ -14,13 +14,16 @@
 (personal 'utf-8)
 (personal 'whitespace)
 
-(setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
-             ("melpa" . "http://melpa.milkbox.net/packages/")))
+(require 'package)
+(setq package-archives '(("melpa" . "http://melpa.org/packages/")
+                         ("gnu" . "http://elpa.gnu.org/packages/")))
+
+(setq package-enable-at-startup nil)
 (package-initialize)
 (when (not package-archive-contents) (package-refresh-contents))
 
 
-
+(package 'helm)
 (package 'js2-mode)
 (package 'flx-ido)
 (package 'flx-isearch)
