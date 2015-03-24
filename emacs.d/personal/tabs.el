@@ -1,5 +1,7 @@
 ;;; Tab management
 
+(global-whitespace-mode 1)
+
 ;; Spaces instead of tabs
 (setq-default indent-tabs-mode nil)
 
