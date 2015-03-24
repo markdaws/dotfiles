@@ -3,8 +3,8 @@
 (add-to-list 'auto-mode-alist '("\\.js$" . js2-mode))
 
 (setq js2-cleanup-whitespace t)
-(setq js2-basic-offset 2)
-(setq js2-bounce-indent-p t)
+(setq js2-basic-offset 4)
+(setq js2-bounce-indent-p nil)
 
 ;; Special improvements using the mooz fork
 ;; https://github.com/mooz/js2-mode
