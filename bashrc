@@ -2,6 +2,10 @@
 ## file *should generate no output* or it will break the scp and rcp commands.
 ############################################################
 
+if [ -e ~/.localbashrc ] ; then
+  . ~/.localbashrc
+fi
+
 if [ -e /etc/bashrc ] ; then
   . /etc/bashrc
 fi
