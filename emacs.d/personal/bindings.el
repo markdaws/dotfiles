@@ -45,6 +45,10 @@
 (global-unset-key (kbd "M-k"))
 (global-set-key (kbd "M-K") 'kill-this-buffer)
 
+;; Easier M-x invocation
+(global-set-key "\C-x\C-m" 'exceute-extended-command)
+(global-set-key "\C-c\C-m" 'execute-extended-command)
+
 ;; Improved navigation and editing (assumes misc.el)
 ;;(global-set-key (kbd "M-Z") 'zap-up-to-char)
 ;;(global-set-key (kbd "M-F") 'forward-to-word)
