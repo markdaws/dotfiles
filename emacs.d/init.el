@@ -31,4 +31,5 @@
 (package 'flx-ido)
 (package 'flx-isearch)
 (package 'projectile)
+(package 'p4)
 
