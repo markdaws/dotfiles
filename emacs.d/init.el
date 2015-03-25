@@ -3,6 +3,9 @@
 
 (load "~/.emacs.d/personal/defuns")
 
+(when (not (display-graphic-p))
+  (menu-bar-mode -1))
+
 (personal 'bindings)
 (personal 'fonts)
 ;;(personal 'flx-ido) flx-ido
@@ -28,3 +31,4 @@
 (package 'flx-ido)
 (package 'flx-isearch)
 (package 'projectile)
+
