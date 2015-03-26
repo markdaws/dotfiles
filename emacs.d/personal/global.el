@@ -66,3 +66,6 @@
 
 ;; zap-up-to-char, forward-to-word, backward-to-word, etc
 (require 'misc)
+
+;; Auto revert files
+(global-auto-revert-mode 1)
