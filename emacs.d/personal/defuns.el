@@ -29,6 +29,10 @@
         (require library)))
     (personal library)))
 
+(defun execute-shell-command-on-buffer (shell-command-text)
+  (interactive "MShell command:")
+  (shell-command (format shell-command-text (shell-quote-argument buffer-file-name))))
+
 ;; Quickly jump back and forth between matching parens/brackets
 (defun match-paren (arg)
   "Go to the matching parenthesis if on parenthesis."
