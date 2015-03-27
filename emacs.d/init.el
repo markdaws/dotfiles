@@ -32,4 +32,5 @@
 (package 'flx-isearch)
 (package 'projectile)
 (package 'p4)
+(package 'circe)
 
