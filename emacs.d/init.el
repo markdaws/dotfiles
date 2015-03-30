@@ -33,4 +33,10 @@
 (package 'projectile)
 (package 'p4)
 (package 'circe)
+;;(package 'solarized-theme)
+(package 'zenburn-theme)
+;;(package 'material-theme)
 
+;;(load-theme 'solarized-dark t)
+(load-theme 'zenburn t)
+;;(load-theme 'material t)
