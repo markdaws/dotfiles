@@ -30,7 +30,7 @@
 (package 'js2-mode)
 (package 'flx-ido)
 (package 'flx-isearch)
-(package 'projectile)
+;;(package 'projectile)
 (package 'p4)
 (package 'circe)
 ;;(package 'solarized-theme)
