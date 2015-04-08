@@ -9,3 +9,5 @@ emacs.d/projectile*
 emacs.d/ido.last
 emacs.d/bookmarks
 emacs.d/games
+emacs.d/url
+emacs.d/eshell
