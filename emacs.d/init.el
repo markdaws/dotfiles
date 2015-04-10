@@ -11,6 +11,8 @@
 ;;(personal 'flx-ido) flx-ido
 (personal 'global)
 (personal 'mac)
+(personal 'macros)
+(personal 'org)
 (personal 'saveplace)
 (personal 'shellmode)
 (personal 'tabs)
