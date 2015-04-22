@@ -68,7 +68,7 @@
 (global-set-key [remap goto-line] 'goto-line-with-feedback)
 
 ;; Helm bindings
-(global-set-key (kbd "C-c C-f") 'helm-locate)
+(global-set-key (kbd "C-c C-d") 'helm-locate)
 
 ;; Help teach to unlearn the arrow keys
 (global-unset-key (kbd "<left>"))
