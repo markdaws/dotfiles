@@ -18,6 +18,7 @@
 (personal 'tabs)
 (personal 'utf-8)
 (personal 'whitespace)
+(personal 'go-mode)
 
 (require 'package)
 (setq package-archives '(("melpa" . "http://melpa.org/packages/")
@@ -27,13 +28,13 @@
 (package-initialize)
 (when (not package-archive-contents) (package-refresh-contents))
 
-
+(package 'go-mode)
 (package 'helm)
 (package 'js2-mode)
 (package 'flx-ido)
 (package 'flx-isearch)
 ;;(package 'projectile)
-(package 'p4)
+;;(package 'p4)
 (package 'circe)
 ;;(package 'solarized-theme)
 (package 'zenburn-theme)
