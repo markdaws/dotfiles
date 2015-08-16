@@ -26,7 +26,8 @@ conditionally_prefix_path /usr/local/sbin
 conditionally_prefix_path /usr/local/Cellar/emacs/24.4/bin/
 conditionally_prefix_path ~/bin
 conditionally_prefix_path ~/bin/private
-
+conditionally_prefix_path ~/code/go
+conditionally_prefix_path ~/code/go/bin
 PATH=.:./bin:${PATH}
 
 ############################################################
@@ -90,6 +91,7 @@ shopt -s checkwinsize
 
 export PAGER="less"
 export EDITOR="emacsclient"
+export GOPATH="/Users/mark/code/go"
 
 ############################################################
 ## History
