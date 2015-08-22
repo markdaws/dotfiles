@@ -55,6 +55,10 @@
 ;; Run shell command on current buffer
 (global-set-key "\M-'" 'execute-shell-command-on-buffer)
 
+(global-set-key "\C-xp" (lambda ()
+                          (interactive)
+                          (other-window -1)))
+
 ;; Improved navigation and editing (assumes misc.el)
 ;;(global-set-key (kbd "M-Z") 'zap-up-to-char)
 ;;(global-set-key (kbd "M-F") 'forward-to-word)
