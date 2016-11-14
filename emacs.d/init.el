@@ -36,6 +36,10 @@
 (package 'web-mode)
 (package 'json-mode)
 (package 'less-css-mode)
+
+(add-to-list 'load-path (concat (getenv "GOPATH")  "/src/github.com/golang/lint/misc/emacs"))
+(require 'golint)
+
 ;;(package 'projectile)
 ;;(package 'p4)
 (package 'circe)
